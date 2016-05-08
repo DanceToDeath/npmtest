@@ -1,0 +1,13 @@
+
+npm install babel-cli --save-dev
+babel:    babeljs.io
+安装预设:
+	npm install babel-preset-es2015 --save-dev
+.babelrc:配置
+	{
+		preset:["es2015","react"]
+	}
+自动监听:
+	在package.json中设置 -w
+	
+	npm run build   //构建解析
