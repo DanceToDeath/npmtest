@@ -11,3 +11,28 @@ babel:    babeljs.io
 	在package.json中设置 -w
 	
 	npm run build   //构建解析
+
+
+///////////////////////////////////////////////////////////
+				nodejs
+#创建空文件夹
+#进入到目录
+#执行npm init 创建package.json文件 注意里面要写对应的git地址
+#创建gitignore文件里面忽略 touch .gitignore  // idea
+#初始化仓库  git init
+#添加到暂存区 git add -A
+#提交 git commit -m"init"
+#关联远程仓库 git remote add origin git@githubXXXX
+#推送到仓库 git push -u origin master
+
+
+/////////////////////发布到npm官方网站
+1,注册
+```
+npm adduser
+```
+2,发布
+```
+npm publish
+```
+//nrm ls    nrm use npm  地址
